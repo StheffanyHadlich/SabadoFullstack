@@ -6,8 +6,12 @@ Projeto criado para o mini-curso de Ruby e React.
 ## /client run
 Para executar o client cd na pasta.
 
-'// instalar as dependencias
-yarn install'
+```
+# instalar as dependencias
+yarn install
+```
 
-'// serve
-yarn start'
+```
+# serve
+yarn start
+```
