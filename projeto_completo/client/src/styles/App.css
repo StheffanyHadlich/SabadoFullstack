@@ -1,0 +1,52 @@
+.page {
+    height: calc(100vh - 144px);
+    padding: 16px;
+    background: #fafafa;
+    --primaryColor: #F54EA2;
+}
+
+/* Forms. */
+
+.form-item {
+    display: block;
+}
+
+.form-item .form-item-label {
+    color: rgba(0,0,0,.8);
+    margin-bottom: 8px;
+}
+
+.form-item input {
+    margin-bottom: 20px;
+}
+
+/* Alter theme. */
+
+.el-button--primary {
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
+
+.el-button.is-disabled, .el-button.is-disabled:focus, .el-button.is-disabled:hover {
+    background-color: #eef1f6 !important;
+    border-color: #d1dbe5 !important;
+}
+
+.el-input__inner:focus {
+    border-color: var(--primaryColor) !important;
+}
+
+.avatar-uploader .avatar-uploader-icon {
+    width: 50px;
+    height: 50px;
+    border: 1px dashed #CCC;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.el-message {
+    z-index: 999;
+}
